@@ -1,0 +1,14 @@
+{
+  "name": "orizon",
+  "version": "1.0.0",
+  "description": "Orizon Travel Agency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriele",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
