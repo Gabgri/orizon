@@ -24,7 +24,8 @@
 </details>
 
 # About the project
-* API
+* Orizon is a travel agency created to introduce people to sustainable types of travel, capable of broadening their horizons.
+* This project is about the development of JSON RESTful APIs to help Orizon promote last-minute offers. 
 
 ## Built With
 * NodeJs
@@ -34,9 +35,11 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Getting Started
-To use this application click here <a href=#>Orizon</a>
+To use this application you have to clone this repository, install NodeJs and its dependecies (npm install), install MySql server and run from CLI using "node app.js".
+Then you can test it from your<a href=http://127.0.0.1:8080>localhost</a>.
 
 ## Usage
+You can test it using POSTMAN or INSOMNIA client, for HTTP methods.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
