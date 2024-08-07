@@ -3,9 +3,9 @@ const app = express();
 app.use(express.json());
 
 // routes
-const usersRoutes = require('./routes/users');
-const ordersRoutes = require('./routes/orders');
-const productsRoutes = require('./routes/products');
+const usersRoutes = require('./routes/usersRoutes');
+const ordersRoutes = require('./routes/ordersRoutes');
+const productsRoutes = require('./routes/productsRoutes');
 
 app.use('/users', usersRoutes);
 app.use('/orders', ordersRoutes);
