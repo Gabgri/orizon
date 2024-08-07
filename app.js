@@ -11,11 +11,6 @@ app.use('/users', usersRoutes);
 app.use('/orders', ordersRoutes);
 app.use('/products', productsRoutes);
 
-//  app.get('/json', (req, res) => {
-//     res.json(persone)
-//  })
-
-// const server = 
 app.listen(8080, () => {
     console.log("Express App running at http://127.0.0.1:8080/");
  })
