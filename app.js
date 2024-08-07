@@ -14,16 +14,19 @@ app.use('/products', productsRoutes);
 app.listen(8080, () => {
     console.log("Express App running at http://127.0.0.1:8080/");
  })
- 
- /*
+
+/*
 Le API devono tutte rispettare l’architettura REST, in particolare il naming, i metodi e gli status code di risposta
 
-Le API dovranno consentire l’inserimento, la modifica e la cancellazione di un prodotto venduto che ha una caratteristica: il nome.
+Le API dovranno consentire l’inserimento, la modifica e la cancellazione 
+di un prodotto venduto che ha una caratteristica: il nome.
 
-Le API dovranno consentire l’inserimento, la modifica e la cancellazione di un’anagrafica di un utente con le seguenti caratteristiche: 
+Le API dovranno consentire l’inserimento, la modifica e la cancellazione 
+di un’anagrafica di un utente con le seguenti caratteristiche: 
 nome, cognome, email.
 
-Le API dovranno consentire l’inserimento, la modifica e la cancellazione, di un ordine di vendita che avrà le seguenti caratteristiche: 
+Le API dovranno consentire l’inserimento, la modifica e la cancellazione, 
+di un ordine di vendita che avrà le seguenti caratteristiche: 
 i prodotti di quell’ordine, gli utenti che fanno parte di quell’ordine.
 
 Le API dovranno infine consentire di 
