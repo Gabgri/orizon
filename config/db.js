@@ -8,10 +8,20 @@ const connection = mysql.createConnection({
     database: process.env.DATABASE
 });
 
-connection.connect(function (err) {
-    if (err) throw err;
-    console.log("Connected!");
+connection.connect((err) => {
+    if (err) {
+      console.error('Error connecting: ' + err.stack);
+      return;
+    }
+    console.log("Connected!"); 
+// connessione.end((err) => {
+//     if (err) console.error('Tentativo di chiusura della connessione fallito:', err);
+//     else console.log('Connessione chiusa correttamente.');
+//   });
  });
+
+
+
 
 module.exports = connection;
 

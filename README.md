@@ -35,12 +35,27 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Getting Started
-To use this application you have to clone this repository, install NodeJs and its dependecies (npm install), install MySql server and run from CLI using "node app.js".
-Then you can test it from your<a href=http://127.0.0.1:8080>localhost</a>.
+To use this application you have to clone this repository, install NodeJs and its dependecies (npm install), install MySql server and loads migrations.sql file (mysql -u root -p orizon < migrations.sql) and run from CLI using "node app.js".
+Then you can test it from your<a href=http://127.0.0.1:8080> localhost</a>.
 
 ## Usage
 You can test it using POSTMAN or INSOMNIA client, for HTTP methods.
+HTTP methods available:
 
+Users
+* 
+* 
+* 
+
+Products
+* 
+* 
+* 
+
+Orders
+* 
+* 
+* 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

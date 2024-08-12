@@ -1,18 +1,13 @@
 const express = require('express');
 const router = express.Router();
 
-// Endpoints
-router.post('/', function (req, res) {
-  res.send('POST request to the homepage')
-  res.status(201)
-})
+const users = require('../controllers/usersControllers.js');
 
-router.put('/', function (req, res) {
-  res.send('PUT request to the homepage')
-})
+// Routes endpoints
+router.post('/', )
 
-router.delete('/', function (req, res) {
-  res.send('DELETE request to the homepage')
-})
+router.put('/:id', )
+
+router.delete('/:id', )
 
 module.exports = router;

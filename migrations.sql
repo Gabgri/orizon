@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS users(
 
 CREATE TABLE IF NOT EXISTS products(
     id_product INT NOT NULL AUTO_INCREMENT,
+--    id_user INT NOT NULL REFERENCES users(id_user),
     product_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(id_product)
 );
